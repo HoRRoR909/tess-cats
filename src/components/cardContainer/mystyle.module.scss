@@ -6,8 +6,6 @@
     align-items: center;
     justify-content: center;
 
-  
-    
     .header {
       font-family: 'Exo 2';
       font-weight: thin;
@@ -37,12 +35,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-
-  // .three_plus {
-  //   margin-top: 50px;
-  //   justify-content: start;
-  // }
-
   .header {
     font-family: 'Exo 2';
     font-weight: thin;
@@ -58,35 +50,5 @@
     }
   }
 }
-
-// @media (min-width: 1920px) {
-//   .container {
-//     display: flex;
-//     height: 100%;
-//     flex-direction: column;
-//     align-items: center;
-//     justify-content: center;
-
-//   .three_plus {
-//     margin-top: 50px;
-//     justify-content: start;
-//   }
-
-//     .header {
-//       font-family: 'Exo 2';
-//       font-weight: thin;
-//       color: white;
-//       font-size: 36px;
-//       text-align: center;
-//     }
-
-//     .card_container {
-//       min-width: 1300px;
-//       display: flex;
-//       justify-content: center;
-//       flex-wrap: wrap;
-//     }
-//   }
-// }
 
 

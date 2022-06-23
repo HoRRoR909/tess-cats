@@ -5,7 +5,6 @@ import styles from './mystyle.module.scss'
 
 const Card = ({taste, quantity, gift, happy, weight, isDisabled}) => {
   const [isActive, setIsActive] = useState(false)
-  // const [isDisabled, setIsDisabled] = useState(false)
 
   const handleClick = () => {
     if (!isDisabled) {

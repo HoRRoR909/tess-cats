@@ -54,17 +54,7 @@ const cardsSlice = createSlice({
   name: "cards",
   initialState,
   reducers: {
-    addCard: (state, action) => {
-      state.cards = state.unshift(action.payload)
-    },
-    changeCard: (state, action) => {
-      state.taste = action.payload.taste
-      state.quantity = action.payload.quantity
-      state.weight = action.payload.weight
-      state.gift = action.payload.gift
-      state.happy = action.payload.happy
-      state.isDisabled = action.payload.isDisabled
-    }
+    
   }
 })
 
