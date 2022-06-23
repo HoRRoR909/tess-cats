@@ -1,0 +1,135 @@
+
+.card_wrapper_default {
+  width: 320px;
+  height: 509px;
+  background-image: url("../../assets/img/card_default.png");
+  background-size: 100% 100%;
+  margin: 40px;
+  font-family: 'Trebuchet MS';
+  cursor: pointer;
+  transition: 0.2s;
+
+  &:hover {
+    background-image: url("../../assets/img/card_default_hover.png");
+    transition: 0.2s;
+
+    .weight_block {
+      background-color: rgb(46, 168, 230);
+    }
+  }
+
+  img {
+    position: relative;
+    border-radius: 7px;
+    top: 27px;
+    left: 4px;
+  }
+
+  .text {
+    margin: 26px 0 0 48px;
+    
+    .p1 {
+      font-size: 15px;
+      color: rgb(66, 66, 66);
+      margin-bottom: 12px;
+    }
+  
+    .title {
+      font-size: 47px;
+      font-weight: bold;
+      // letter-spacing: -1px;
+      margin-left: -3px;
+      margin-bottom: 5px;
+      
+    }
+  
+    .taste {
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 17px;
+    }
+  
+    .describtion {
+      font-size: 14px;
+      color: rgb(66, 66, 66);
+      height: 60px;
+      width: 50%;
+      line-height: 120%;
+    }
+  }
+
+  .weight_block {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    left: 222px;
+    bottom: 82px;
+    width: 80px;
+    height: 80px;
+    background-color: #1698D9;
+    color: white;
+    border-radius: 100%;
+
+    .weight {
+      font-size: 42px;
+    }
+
+    .kg {
+      font-size: 22px;
+    }
+  }
+
+  .order {
+    position: relative;
+    color: white;
+    top: 50px;
+    text-align: center;
+  }
+}
+
+.selected {
+  background-image: url("../../assets/img/card_selected.png");
+
+  &:hover {
+    background-image: url("../../assets/img/card_selected_hover.png");
+
+    .weight_block {
+      background-color: rgb(229, 46, 122);
+    }
+  }
+
+  .weight_block {
+    background-color: rgb(217, 22, 103);
+  }
+}
+
+.disabled {
+  background-image: url("../../assets/img/card_disabled.png");
+  color: rgb(179, 179, 179);
+  cursor: default;
+
+  &:hover {
+    background-image: url("../../assets/img/card_disabled.png");
+    transition: 0.2s;
+
+    .weight_block {
+      background-color: rgb(179, 179, 179);
+    }
+  }
+
+  img {
+    opacity: 50%;
+  }
+
+  .weight_block {
+    background-color: rgb(179, 179, 179);
+  }
+
+  .order {
+    color: rgb(255, 255, 102);
+  }
+
+}
+
