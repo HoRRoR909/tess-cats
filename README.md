@@ -1,8 +1,8 @@
-# Getting Started with Create React App
+# Тестовое задание, еда для котиков
 
-Тестовое задание, еда для котиков
 
-## Технологии:
 
-Использовал react + redux
+## Использовал react + redux
+
+
 
